@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  min-width: 320px;
+  max-width: 600px;
+  padding: 1rem;
+  background-color: hsl(250, 26%, 5%);
+  color: hsl(0, 0%, 85%);
+}
+
+header {
+  margin-bottom: 0.75rem;
+  padding: 0 1rem;
+  border-bottom: 4px solid hsl(271, 100%, 20%);
+  border-radius: 0.75rem;
+  background-color: hsl(250, 26%, 10%);
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem 0.5rem;
+  border-radius: 0.75rem;
+  background-color: hsl(250, 26%, 10%);
+}
+
+section {
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  background-color: hsl(250, 26%, 15%);
+}
+
+h3 {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 4px solid hsl(271, 100%, 30%);
+  border-radius: 0.75rem;
+}
